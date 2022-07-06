@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer -> prints 24 hours
- * Return: Always 0.
  */
 void jack_baurer(void)
 {
@@ -34,7 +33,6 @@ _putchar((j / 10) + '0');
 _putchar((j % 10) + '0');
 }
 _putchar('\n');
-return (0);
 }
 }
 }

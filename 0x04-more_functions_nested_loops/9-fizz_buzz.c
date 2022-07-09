@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
  * main - entry point
+ *
  * Return: void
  */
 
 int main(void)
 {
+
 int p = 100;
 int i;
 
@@ -26,7 +28,7 @@ else if (i % 5 == 0)
 {
 if (i < p)
 printf("Buzz ");
-}
+
 
 else
 printf("Buzz");
